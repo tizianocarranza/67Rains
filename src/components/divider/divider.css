@@ -1,0 +1,20 @@
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider__background {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 1020px;
+    height: 148px;
+}
+
+.divider__text {
+    position: absolute;
+    top: 79%;
+    margin: 0;
+}
+    

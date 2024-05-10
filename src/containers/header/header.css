@@ -1,0 +1,24 @@
+.header {
+    background-image: url("../../assets/headerImg.png");
+    background-position: center top 25px;
+}
+
+
+.header__logo 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+/* LOGO TEMPORAL */
+.header__logo-tittle
+{
+    font-size: 90px;
+    user-select: none;
+}
+.header__logo-phrase
+{
+    user-select: none;
+}

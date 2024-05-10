@@ -1,0 +1,48 @@
+.collection {
+    text-align: center;
+}
+.collection__wrapper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.collection__container-left img
+{
+    width: 18rem;
+    height: 40rem;
+    margin-right: 0.5rem;
+}
+
+.collection__container-top-right 
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.collection__container-top-right img
+{
+    width: 15rem;
+    height: 22rem;
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.collection__container-bottom-right {
+    display: flex;
+}
+
+.collection__container-bottom-right #imgA
+{
+    width: 23rem;
+    height: 17.5rem;
+    margin: 0 0.5rem 0 0
+}
+
+.collection__container-bottom-right #imgB
+{
+    width: 22.5rem;
+    height: 17.5rem;
+    margin: 0;
+}

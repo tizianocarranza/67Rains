@@ -1,0 +1,29 @@
+.navbar
+{
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--bg-color);
+
+    height: 40px;
+    width: 100%;
+
+    padding: 0 1rem;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.navbar__logo {
+    position: absolute;
+    left: 50%; /* Lo sitúa en el centro horizontalmente */
+    transform: translateX(-50%);
+    cursor: default;
+    user-select: none;
+}
+
